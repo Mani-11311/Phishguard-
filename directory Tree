@@ -1,1 +1,21 @@
+# Phishing URL Detection
+
+A machine learning web application that detects phishing URLs using a trained model.
+
+# Project Structure
+phishing-url-detection/
+├── pickle/
+│ └── model.pkl # Trained machine learning model
+├── static/
+│ └── styles.css # CSS styles for the web interface
+├── templates/
+│ └── index.html # Main web application template
+├── Phishing URL Detection.ipynb # Jupyter notebook for model development
+├── Procfile # Deployment configuration for Heroku
+├── app.py # Flask web application main file
+├── feature.py # Feature extraction utilities
+├── phishing.csv # Dataset used for training
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
 
